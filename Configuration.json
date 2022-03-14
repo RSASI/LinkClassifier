@@ -1,0 +1,24 @@
+{  
+                "IPAddress": "DESKTOP-NMQJ2B2",
+                "Username": "sa",
+                "Password": "sql2019",
+                "Database": "ACE",
+                "InputTable": "LinkExtraction_13032022",
+                "OutputTable": "LinkClassification_13032022",
+                "Deadlockpriority":"5",
+                "StartID":"1",
+                "EndID":"1200",
+   
+         "ConnectionTimeoutInSec":"15",
+	"UserAgent":"Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36",
+	"RedirectCount":"3",
+	"metaURLRegex":"URL=(.*?)(\"|')[^<>]*>",
+        "Threadpool":"3",
+	"Online":"true",
+        "AdditionalQuery":" extractedURL like '%contact%' and ",
+
+		"Charset":"utf-8",
+		"TimeoutForProcessingInMinutes":4,
+		"TimeRelayInSeconds":30
+
+}
